@@ -1,0 +1,27 @@
+{
+  "name": "restapi-nodejs",
+  "version": "1.0.0",
+  "description": "test RESTful API with Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanyn10/restapi-nodejs.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "Dhany Nurdiansyah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhanyn10/restapi-nodejs/issues"
+  },
+  "homepage": "https://github.com/dhanyn10/restapi-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
