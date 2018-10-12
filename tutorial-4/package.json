@@ -1,0 +1,25 @@
+{
+  "name": "tutorial-4",
+  "version": "1.0.0",
+  "description": "[4] Parsing the Body & Handling CORS",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "rest",
+    "api"
+  ],
+  "author": "Dhany Nurdiansyah",
+  "license": "MIT"
+}
