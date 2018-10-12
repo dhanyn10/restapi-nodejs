@@ -1,11 +1,8 @@
 {
-  "name": "step-2",
+  "name": "tutorial-2",
   "version": "1.0.0",
-  "description": "day 2: Adding More Routes to the API",
+  "description": "[2] Adding More Routes to the API",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "routes",
     "restful",
