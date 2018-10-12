@@ -1,0 +1,21 @@
+{
+  "name": "tutorial-1",
+  "version": "1.0.0",
+  "description": "[1] Creating a REST API with Node.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "rest",
+    "api"
+  ],
+  "author": "Dhany Nurdiansyah",
+  "license": "MIT"
+}
