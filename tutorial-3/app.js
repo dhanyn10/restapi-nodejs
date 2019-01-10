@@ -1,5 +1,12 @@
 const express   = require('express');
 const app       = express();
+
+/**
+ * HTTP request logger middleware for node.js
+ * this module will give extra result in the terminal/cmd
+ * like follow:
+ * GET /products/special 200 40.417 ms - 30
+ */
 const morgan    = require('morgan');
 
 const productRoutes = require('./api/routes/products');
