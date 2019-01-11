@@ -1,6 +1,6 @@
-const express   = require('express');
-const app       = express();
-const morgan    = require('morgan');
+const express       = require('express');
+const app           = express();
+const morgan        = require('morgan');
 const bodyParser    = require('body-parser');
 
 const productRoutes = require('./api/routes/products');
