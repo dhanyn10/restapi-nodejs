@@ -32,6 +32,7 @@ app.use((req, res, next) => {
     {
         res.header(
                 'Access-Control-Allow-Methods',
+                // below is which kind of methods you want to accept
                 'PUT, POST, PATCH, DELETE, GET'
             );
         return res.status(200).json({});
