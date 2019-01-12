@@ -27,6 +27,7 @@ app.use((req, res, next) => {
         // below is which kind of headers you want to accept
         'Origin, X-Requested-With, Content-type, Accept, Authorization'
     );
+    // check if incoming request method is equals to 'OPTIONS'
     if(req.method === 'OPTIONS')
     {
         res.header(
