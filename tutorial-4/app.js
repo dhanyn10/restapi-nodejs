@@ -6,9 +6,14 @@ const bodyParser    = require('body-parser');
 const productRoutes = require('./api/routes/products');
 const orderRoutes   = require('./api/routes/orders');
 
+// middleware
 app.use(morgan('dev'));
 
 app.use(bodyParser.urlencoded({
+    /**
+     * true     : allows you to parse extended body with rich data
+     * false    : only allows simple body
+     */
     extended: false
 }));
 
