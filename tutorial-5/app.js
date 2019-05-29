@@ -10,7 +10,7 @@ const orderRoutes   = require('./api/routes/orders');
 mongoose.connect(
     'mongodb://dhanyn10:'+
     process.env.MONGO_PASSWORD +
-    '@restapi-nodejs-shard-00-00-uisym.gcp.mongodb.net:27017,restapi-nodejs-shard-00-01-uisym.gcp.mongodb.net:27017,restapi-nodejs-shard-00-02-uisym.gcp.mongodb.net:27017/test?ssl=true&replicaSet=restapi-nodejs-shard-0&authSource=admin&retryWrites=true'
+    '@restapi-nodejs-uisym.gcp.mongodb.net/test?retryWrites=true'
 );
 
 // middleware
