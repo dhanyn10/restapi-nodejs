@@ -9,8 +9,11 @@ const orderRoutes   = require('./api/routes/orders');
 
 mongoose.connect(
     'mongodb://dhanyn10:'+
-    process.env.MONGO_PASSWORD +
-    '@restapi-nodejs-uisym.gcp.mongodb.net/test?retryWrites=true'
+    process.env.MONGODB_PASSWORD +
+    '@cluster0-shard-00-00-uisym.mongodb.net:27017,cluster0-shard-00-01-uisym.mongodb.net:27017,cluster0-shard-00-02-uisym.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority',
+    {
+        useNewUrlParser: true
+    }
 );
 
 // middleware
