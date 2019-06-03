@@ -1,0 +1,26 @@
+{
+  "name": "tutorial-5",
+  "version": "1.0.0",
+  "description": "[5] MongoDB and Mongoose",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.12",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "rest",
+    "api"
+  ],
+  "author": "Dhany Nurdiansyah",
+  "license": "MIT"
+}
